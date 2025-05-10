@@ -1,5 +1,5 @@
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white&style=flat-square)
+![Docker](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png)
+![Ansible](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ansible.png)
 
 # Ansible docker lightweight master container setup
 
@@ -69,7 +69,7 @@ services:
 3. **Access the Container via SSH**:
    Use the following command to SSH into the container:
    ```bash
-   ssh -i ~/.ssh/id_ed25519 -p 2221 ansible@localhost
+   ssh ansible@localhost -p 2221 
    ```
 
 ## Notes
