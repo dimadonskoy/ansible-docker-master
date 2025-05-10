@@ -73,6 +73,7 @@ services:
    ```bash
    ssh ansible@localhost -p 2221 
    ```
+OR you can run build.sh sctipt .
 
 ## Notes
 
