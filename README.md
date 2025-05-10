@@ -1,7 +1,9 @@
-![Docker](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png)
-![Ansible](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ansible.png)
-
 # Ansible docker lightweight master container setup
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" width="70" height="70">
+    <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ansible.png" alt="Ansible" width="70" height="70">
+</p>
 
 Create and deploy lightweight ansible server (master node) with open ssh server .
 
