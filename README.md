@@ -1,12 +1,14 @@
-# SSH Server Container Setup
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white&style=flat-square)
 
-This document provides instructions for setting up an SSH server container using Docker and Docker Compose.
+# Ansible docker lightweight master container setup
+
+Create and deploy lightweight ansible server (master node) with open ssh server .
 
 ## Dockerfile
 
 ```dockerfile
 FROM ubuntu:22.04
-
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Jerusalem
 
@@ -74,3 +76,10 @@ services:
 
 - Ensure your SSH public key (`~/.ssh/id_ed25519.pub`) exists before starting the container.
 - The container is configured to restart automatically unless stopped manually.
+
+## Author
+
+- Dmitri Donskoy
+- crooper22@gmail.com
+
+Feel free to contribute to this project by submitting issues or pull requests.
